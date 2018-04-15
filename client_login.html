@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+
+    <!-- Website CSS style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+    <!-- Website Font style -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Vapor Service</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.php"></a></li>
+      <li><a href="contact.php"></a></li>
+      <li><a href="about.php"></a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="client_signup.html"><span class="glyphicon glyphicon-user"></span> Client SignUp</a></li>
+      <li class="active"><a href="client_login.html"><span class="glyphicon glyphicon-log-in"></span>Client Login</a></li>
+      <li><a href="garage_signup.html"><span class="glyphicon glyphicon-user"></span>Garage SignUp</a></li>
+      <li><a href="garage_login.html"><span class="glyphicon glyphicon-log-in"></span>Garage Login</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+      <div class="row main">
+        <div class="panel-heading">
+                 <div class="panel-title text-center">
+                    <h1 class="title">Welcome Back to <br> Vapor Service</h1>
+                    <hr />
+                  </div>
+              </div> s
+        <div class="main-login main-center">
+          <form class="form-horizontal" method="post" action="client_login.php">
+
+            <div class="form-group">
+              <label for="email" class="cols-sm-2 control-label">Your Email</label>
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="password" class="cols-sm-2 control-label">Password</label>
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                  <input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group ">
+              <button type="submit" class="btn btn-primary btn-lg btn-block login-button">Login</button>
+            </div>
+            <div class="login-register">
+                    <a href="client_signup.html">SignUp</a>
+                 </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+
+</body>
+</html>
